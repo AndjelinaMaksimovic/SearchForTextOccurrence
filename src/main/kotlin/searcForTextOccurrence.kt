@@ -53,7 +53,7 @@ fun searchForTextOccurrence(
 }
 
 
-// Worker function to handle Tip 1 (RAM), Tip 2 (Streaming), and Tip 3 (Newlines).
+// Worker function
 private suspend fun ProducerScope<Occurrence>.processFileStreaming(
     file: Path,
     query: String
